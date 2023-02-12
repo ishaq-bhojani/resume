@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 0.5em;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+section#about {
+    margin-top: 5em;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+section h3 {
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+}
+#skills ul li {
+    margin: 0 0.5em;
+}
